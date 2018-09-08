@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		118080B67B72A76324BB1600037DB36A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		61628B07B53FDB43FF855BB977C056AA /* Pods-HappyMealSwiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1945B7BE4BB9CDB6A9221B0BD6263F /* Pods-HappyMealSwiftTests-dummy.m */; };
+		76B704460E8374F6A52C3FD176848C25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		83E9C1F043AAA5F5DD41E0E32B0D1571 /* Pods-HappyMealSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E785A74A5BAFA9797DF6DDF71C62 /* Pods-HappyMealSwift-dummy.m */; };
+		9F4804BB1873519BB419D15F0308E38A /* Pods-HappyMealSwiftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 943B7C92FCE7F48FC93B2D0831A40ADD /* Pods-HappyMealSwiftUITests-dummy.m */; };
+		AB539280F8670E1657A9BEBCB034958C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E34C547C3412DB529AFDDC795070CCB /* Pods-HappyMealSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyMealSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1914601D4B344868C20140B2A38ED30D /* Pods-HappyMealSwiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HappyMealSwiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		25B58B4BDF865104FF715EC2278145EB /* Pods-HappyMealSwiftUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HappyMealSwiftUITests-frameworks.sh"; sourceTree = "<group>"; };
+		27D560228C941A46E5F8B7E447637D49 /* Pods-HappyMealSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyMealSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E697B01293CD6E9D6D989F155EE6EC1 /* Pods-HappyMealSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyMealSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E39B1828846BE4C9B17F510F394AFC1 /* Pods-HappyMealSwiftTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HappyMealSwiftTests-resources.sh"; sourceTree = "<group>"; };
+		5713126562859D26009D92220F7AB027 /* Pods-HappyMealSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyMealSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		5AE6B01E21F3BFF6B3F9789A8CCB5888 /* Pods-HappyMealSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HappyMealSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B9F8C39EFFBB4791F371E1174FC19B3 /* Pods-HappyMealSwiftUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HappyMealSwiftUITests-resources.sh"; sourceTree = "<group>"; };
+		63C8E785A74A5BAFA9797DF6DDF71C62 /* Pods-HappyMealSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HappyMealSwift-dummy.m"; sourceTree = "<group>"; };
+		655727FCFE61BED766C5E6A518B7E4B1 /* Pods-HappyMealSwiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HappyMealSwiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		810B61618BF3E7902F6E0490D4F847D2 /* Pods-HappyMealSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HappyMealSwift-frameworks.sh"; sourceTree = "<group>"; };
+		91A3AB9B3EF99808AFA5C3C14DFCDC7A /* Pods-HappyMealSwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HappyMealSwift-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		943B7C92FCE7F48FC93B2D0831A40ADD /* Pods-HappyMealSwiftUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HappyMealSwiftUITests-dummy.m"; sourceTree = "<group>"; };
+		AB1945B7BE4BB9CDB6A9221B0BD6263F /* Pods-HappyMealSwiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HappyMealSwiftTests-dummy.m"; sourceTree = "<group>"; };
+		B3EC7E06F504470216E387740BCFA7FE /* Pods-HappyMealSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyMealSwift.release.xcconfig"; sourceTree = "<group>"; };
+		B50392AF0F3FCF9C30112231EFF70BE8 /* libPods-HappyMealSwiftTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HappyMealSwiftTests.a"; path = "libPods-HappyMealSwiftTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51DE7DAE8ED7A8C5C6C7F9D6FF0B632 /* Pods-HappyMealSwiftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HappyMealSwiftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D776038B63D8DC86124756629D0AA8B5 /* libPods-HappyMealSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HappyMealSwift.a"; path = "libPods-HappyMealSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACB8BDD59F611F3F7C9C10E037FAD8F /* Pods-HappyMealSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyMealSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EC5394E9923E5AEFB16FDC860F4E87F2 /* libPods-HappyMealSwiftUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HappyMealSwiftUITests.a"; path = "libPods-HappyMealSwiftUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9DD6C6E17023A381F8E2A4C34AB7A9 /* Pods-HappyMealSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HappyMealSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		F73FC02F7A098A98AD7CDC4C7D3D3D91 /* Pods-HappyMealSwiftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HappyMealSwiftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F79C8B994B0637D5EA2E0924B5D9FA16 /* Pods-HappyMealSwiftTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HappyMealSwiftTests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DEF1FFEFBCF1CB0731E8623004E9E36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B704460E8374F6A52C3FD176848C25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66BD83A81F0E1863031A2365439D19E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118080B67B72A76324BB1600037DB36A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3AA7AD7F51CA05697DA08E8F2FA3AA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB539280F8670E1657A9BEBCB034958C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063976B7C1F4E3F71F082798FFBBCC82 /* Pods-HappyMealSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				655727FCFE61BED766C5E6A518B7E4B1 /* Pods-HappyMealSwiftTests-acknowledgements.markdown */,
+				1914601D4B344868C20140B2A38ED30D /* Pods-HappyMealSwiftTests-acknowledgements.plist */,
+				AB1945B7BE4BB9CDB6A9221B0BD6263F /* Pods-HappyMealSwiftTests-dummy.m */,
+				F79C8B994B0637D5EA2E0924B5D9FA16 /* Pods-HappyMealSwiftTests-frameworks.sh */,
+				3E39B1828846BE4C9B17F510F394AFC1 /* Pods-HappyMealSwiftTests-resources.sh */,
+				0E34C547C3412DB529AFDDC795070CCB /* Pods-HappyMealSwiftTests.debug.xcconfig */,
+				27D560228C941A46E5F8B7E447637D49 /* Pods-HappyMealSwiftTests.release.xcconfig */,
+			);
+			name = "Pods-HappyMealSwiftTests";
+			path = "Target Support Files/Pods-HappyMealSwiftTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E8CBE4CEB3D97FFB6261A95CBEA98A42 /* Products */,
+				94F88D069F73B97D6E3732A75F8E8D2F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		94F88D069F73B97D6E3732A75F8E8D2F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD11CCC6F0F32758C5ECA89EDF8C78F9 /* Pods-HappyMealSwift */,
+				063976B7C1F4E3F71F082798FFBBCC82 /* Pods-HappyMealSwiftTests */,
+				A19F479117C79A3F284A28E5AC24FCDA /* Pods-HappyMealSwiftUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A19F479117C79A3F284A28E5AC24FCDA /* Pods-HappyMealSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F73FC02F7A098A98AD7CDC4C7D3D3D91 /* Pods-HappyMealSwiftUITests-acknowledgements.markdown */,
+				B51DE7DAE8ED7A8C5C6C7F9D6FF0B632 /* Pods-HappyMealSwiftUITests-acknowledgements.plist */,
+				943B7C92FCE7F48FC93B2D0831A40ADD /* Pods-HappyMealSwiftUITests-dummy.m */,
+				25B58B4BDF865104FF715EC2278145EB /* Pods-HappyMealSwiftUITests-frameworks.sh */,
+				5B9F8C39EFFBB4791F371E1174FC19B3 /* Pods-HappyMealSwiftUITests-resources.sh */,
+				2E697B01293CD6E9D6D989F155EE6EC1 /* Pods-HappyMealSwiftUITests.debug.xcconfig */,
+				EACB8BDD59F611F3F7C9C10E037FAD8F /* Pods-HappyMealSwiftUITests.release.xcconfig */,
+			);
+			name = "Pods-HappyMealSwiftUITests";
+			path = "Target Support Files/Pods-HappyMealSwiftUITests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD11CCC6F0F32758C5ECA89EDF8C78F9 /* Pods-HappyMealSwift */ = {
+			isa = PBXGroup;
+			children = (
+				5AE6B01E21F3BFF6B3F9789A8CCB5888 /* Pods-HappyMealSwift-acknowledgements.markdown */,
+				EC9DD6C6E17023A381F8E2A4C34AB7A9 /* Pods-HappyMealSwift-acknowledgements.plist */,
+				63C8E785A74A5BAFA9797DF6DDF71C62 /* Pods-HappyMealSwift-dummy.m */,
+				810B61618BF3E7902F6E0490D4F847D2 /* Pods-HappyMealSwift-frameworks.sh */,
+				91A3AB9B3EF99808AFA5C3C14DFCDC7A /* Pods-HappyMealSwift-resources.sh */,
+				5713126562859D26009D92220F7AB027 /* Pods-HappyMealSwift.debug.xcconfig */,
+				B3EC7E06F504470216E387740BCFA7FE /* Pods-HappyMealSwift.release.xcconfig */,
+			);
+			name = "Pods-HappyMealSwift";
+			path = "Target Support Files/Pods-HappyMealSwift";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E8CBE4CEB3D97FFB6261A95CBEA98A42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D776038B63D8DC86124756629D0AA8B5 /* libPods-HappyMealSwift.a */,
+				B50392AF0F3FCF9C30112231EFF70BE8 /* libPods-HappyMealSwiftTests.a */,
+				EC5394E9923E5AEFB16FDC860F4E87F2 /* libPods-HappyMealSwiftUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2545962B2C64EB7A162E7E4814B4D11C /* Pods-HappyMealSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4491A7DFFFEB46863F6B58FFD290BD0C /* Build configuration list for PBXNativeTarget "Pods-HappyMealSwiftTests" */;
+			buildPhases = (
+				A89C2DCD67CA95608BFD9C55590BDF12 /* Sources */,
+				A66BD83A81F0E1863031A2365439D19E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HappyMealSwiftTests";
+			productName = "Pods-HappyMealSwiftTests";
+			productReference = B50392AF0F3FCF9C30112231EFF70BE8 /* libPods-HappyMealSwiftTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6D1F410E3B1BE3935BA6A71A40D3A2E7 /* Pods-HappyMealSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE4378631DCFC9E532188A496EB94C6 /* Build configuration list for PBXNativeTarget "Pods-HappyMealSwift" */;
+			buildPhases = (
+				BC99A9943B02455B5FFF6524459A2709 /* Sources */,
+				E3AA7AD7F51CA05697DA08E8F2FA3AA8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HappyMealSwift";
+			productName = "Pods-HappyMealSwift";
+			productReference = D776038B63D8DC86124756629D0AA8B5 /* libPods-HappyMealSwift.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FD401EDF8482D72541923EF96DB2F2D4 /* Pods-HappyMealSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DAF8F2114565C5FBB434B7A2C81800A /* Build configuration list for PBXNativeTarget "Pods-HappyMealSwiftUITests" */;
+			buildPhases = (
+				B7F449238F4424E1D45D717E74A8CCA3 /* Sources */,
+				4DEF1FFEFBCF1CB0731E8623004E9E36 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HappyMealSwiftUITests";
+			productName = "Pods-HappyMealSwiftUITests";
+			productReference = EC5394E9923E5AEFB16FDC860F4E87F2 /* libPods-HappyMealSwiftUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E8CBE4CEB3D97FFB6261A95CBEA98A42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D1F410E3B1BE3935BA6A71A40D3A2E7 /* Pods-HappyMealSwift */,
+				2545962B2C64EB7A162E7E4814B4D11C /* Pods-HappyMealSwiftTests */,
+				FD401EDF8482D72541923EF96DB2F2D4 /* Pods-HappyMealSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A89C2DCD67CA95608BFD9C55590BDF12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61628B07B53FDB43FF855BB977C056AA /* Pods-HappyMealSwiftTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F449238F4424E1D45D717E74A8CCA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4804BB1873519BB419D15F0308E38A /* Pods-HappyMealSwiftUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC99A9943B02455B5FFF6524459A2709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E9C1F043AAA5F5DD41E0E32B0D1571 /* Pods-HappyMealSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D45CDFD51EC744543B06BF97F893F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E697B01293CD6E9D6D989F155EE6EC1 /* Pods-HappyMealSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13A9D986A340DAA3585F5802C6143739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3EC7E06F504470216E387740BCFA7FE /* Pods-HappyMealSwift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18605CA3E26ACB6F3B6ABB5DEFB75279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D560228C941A46E5F8B7E447637D49 /* Pods-HappyMealSwiftTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		44D3A36B54D4F79AB8ED63A610081E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E34C547C3412DB529AFDDC795070CCB /* Pods-HappyMealSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46B950E773682AFF17018E76B0F4D66A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5713126562859D26009D92220F7AB027 /* Pods-HappyMealSwift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6243C5B489ED98BB7CE6C840F384D7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EACB8BDD59F611F3F7C9C10E037FAD8F /* Pods-HappyMealSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4491A7DFFFEB46863F6B58FFD290BD0C /* Build configuration list for PBXNativeTarget "Pods-HappyMealSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D3A36B54D4F79AB8ED63A610081E56 /* Debug */,
+				18605CA3E26ACB6F3B6ABB5DEFB75279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DAF8F2114565C5FBB434B7A2C81800A /* Build configuration list for PBXNativeTarget "Pods-HappyMealSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D45CDFD51EC744543B06BF97F893F87 /* Debug */,
+				6243C5B489ED98BB7CE6C840F384D7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE4378631DCFC9E532188A496EB94C6 /* Build configuration list for PBXNativeTarget "Pods-HappyMealSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B950E773682AFF17018E76B0F4D66A /* Debug */,
+				13A9D986A340DAA3585F5802C6143739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

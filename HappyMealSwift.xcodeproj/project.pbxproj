@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FFED88367C4601E9885149F /* libPods-HappyMealSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FA961BC99032A0F531E40C /* libPods-HappyMealSwift.a */; };
+		5359A51137154657DAAFF36B /* libPods-HappyMealSwiftUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4780586DC7FEE3434E953F06 /* libPods-HappyMealSwiftUITests.a */; };
+		63629EEEF5C159F85593C586 /* libPods-HappyMealSwiftTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E76CAC540AE0008A0D701F9 /* libPods-HappyMealSwiftTests.a */; };
+		6F3AD1B52038E284004AD04B /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3AD1B42038E284004AD04B /* RestaurantViewController.swift */; };
+		6F3AD1BA2038E3F2004AD04B /* RestaurantCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3AD1B92038E3F2004AD04B /* RestaurantCollectionViewCell.swift */; };
+		6F3AD1BD2038E40E004AD04B /* RestaurantCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F3AD1BC2038E40E004AD04B /* RestaurantCollectionViewCell.xib */; };
+		6F3AD1CE2038EB80004AD04B /* CollectionViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3AD1CA2038EB80004AD04B /* CollectionViewHelper.swift */; };
+		6F3AD1CF2038EB80004AD04B /* StoryboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3AD1CB2038EB80004AD04B /* StoryboardHelper.swift */; };
+		6F3AD1D02038EB80004AD04B /* AnimationBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3AD1CC2038EB80004AD04B /* AnimationBarButton.swift */; };
+		6F3AD1D12038EB80004AD04B /* Rotatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3AD1CD2038EB80004AD04B /* Rotatable.swift */; };
+		6F3AD1DD2038EC31004AD04B /* SubviewsForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3AD1D22038EC30004AD04B /* SubviewsForEach.swift */; };
+		6F3AD1DE2038EC31004AD04B /* BasePageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3AD1D32038EC30004AD04B /* BasePageCollectionCell.swift */; };
+		6F3AD1DF2038EC31004AD04B /* TransitionDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3AD1D42038EC30004AD04B /* TransitionDriver.swift */; };
+		6F3AD1E02038EC31004AD04B /* PageCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3AD1D52038EC30004AD04B /* PageCollectionLayout.swift */; };
+		6F3AD1E12038EC31004AD04B /* ExpandingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3AD1D62038EC30004AD04B /* ExpandingTableViewController.swift */; };
+		6F3AD1E22038EC31004AD04B /* CornerAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3AD1D72038EC30004AD04B /* CornerAnimatable.swift */; };
+		6F3AD1E32038EC31004AD04B /* ConfigurationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3AD1D82038EC30004AD04B /* ConfigurationHelper.swift */; };
+		6F3AD1E42038EC31004AD04B /* ConstraintsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3AD1D92038EC30004AD04B /* ConstraintsHelper.swift */; };
+		6F3AD1E52038EC31004AD04B /* ScreenShotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3AD1DA2038EC30004AD04B /* ScreenShotHelper.swift */; };
+		6F3AD1E62038EC31004AD04B /* PageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3AD1DB2038EC31004AD04B /* PageCollectionView.swift */; };
+		6F3AD1E72038EC31004AD04B /* ExpandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3AD1DC2038EC31004AD04B /* ExpandingViewController.swift */; };
+		6F3EDFEB203CDCED008D288F /* TitleCostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3EDFEA203CDCED008D288F /* TitleCostTableViewCell.swift */; };
+		FCAAC9722024ADDA00E699CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAAC9712024ADDA00E699CB /* AppDelegate.swift */; };
+		FCAAC9772024ADDA00E699CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAAC9752024ADDA00E699CB /* Main.storyboard */; };
+		FCAAC9792024ADDA00E699CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCAAC9782024ADDA00E699CB /* Assets.xcassets */; };
+		FCAAC97C2024ADDA00E699CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAAC97A2024ADDA00E699CB /* LaunchScreen.storyboard */; };
+		FCAAC9872024ADDA00E699CB /* HappyMealSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAAC9862024ADDA00E699CB /* HappyMealSwiftTests.swift */; };
+		FCAAC9922024ADDA00E699CB /* HappyMealSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAAC9912024ADDA00E699CB /* HappyMealSwiftUITests.swift */; };
+		FCC39E62203DCC82001E708F /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC39E61203DCC82001E708F /* RestaurantDetailViewController.swift */; };
+		FCC39E64203DD1A2001E708F /* RestaurantDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC39E63203DD1A2001E708F /* RestaurantDetailCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCAAC9832024ADDA00E699CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCAAC9662024ADD900E699CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCAAC96D2024ADDA00E699CB;
+			remoteInfo = HappyMealSwift;
+		};
+		FCAAC98E2024ADDA00E699CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCAAC9662024ADD900E699CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCAAC96D2024ADDA00E699CB;
+			remoteInfo = HappyMealSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6F9019522039D258008CB84C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E76CAC540AE0008A0D701F9 /* libPods-HappyMealSwiftTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HappyMealSwiftTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46821A97C6FAB851A0E35B89 /* Pods-HappyMealSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyMealSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HappyMealSwiftUITests/Pods-HappyMealSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4780586DC7FEE3434E953F06 /* libPods-HappyMealSwiftUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HappyMealSwiftUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48FA961BC99032A0F531E40C /* libPods-HappyMealSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HappyMealSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A021EB2D73C6AE69C334F8C /* Pods-HappyMealSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyMealSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HappyMealSwiftUITests/Pods-HappyMealSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F3AD1B42038E284004AD04B /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		6F3AD1B92038E3F2004AD04B /* RestaurantCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCollectionViewCell.swift; sourceTree = "<group>"; };
+		6F3AD1BC2038E40E004AD04B /* RestaurantCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantCollectionViewCell.xib; sourceTree = "<group>"; };
+		6F3AD1CA2038EB80004AD04B /* CollectionViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewHelper.swift; sourceTree = "<group>"; };
+		6F3AD1CB2038EB80004AD04B /* StoryboardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardHelper.swift; sourceTree = "<group>"; };
+		6F3AD1CC2038EB80004AD04B /* AnimationBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationBarButton.swift; sourceTree = "<group>"; };
+		6F3AD1CD2038EB80004AD04B /* Rotatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rotatable.swift; sourceTree = "<group>"; };
+		6F3AD1D22038EC30004AD04B /* SubviewsForEach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubviewsForEach.swift; sourceTree = "<group>"; };
+		6F3AD1D32038EC30004AD04B /* BasePageCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePageCollectionCell.swift; sourceTree = "<group>"; };
+		6F3AD1D42038EC30004AD04B /* TransitionDriver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionDriver.swift; sourceTree = "<group>"; };
+		6F3AD1D52038EC30004AD04B /* PageCollectionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageCollectionLayout.swift; sourceTree = "<group>"; };
+		6F3AD1D62038EC30004AD04B /* ExpandingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandingTableViewController.swift; sourceTree = "<group>"; };
+		6F3AD1D72038EC30004AD04B /* CornerAnimatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerAnimatable.swift; sourceTree = "<group>"; };
+		6F3AD1D82038EC30004AD04B /* ConfigurationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationHelper.swift; sourceTree = "<group>"; };
+		6F3AD1D92038EC30004AD04B /* ConstraintsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintsHelper.swift; sourceTree = "<group>"; };
+		6F3AD1DA2038EC30004AD04B /* ScreenShotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenShotHelper.swift; sourceTree = "<group>"; };
+		6F3AD1DB2038EC31004AD04B /* PageCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageCollectionView.swift; sourceTree = "<group>"; };
+		6F3AD1DC2038EC31004AD04B /* ExpandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandingViewController.swift; sourceTree = "<group>"; };
+		6F3EDFEA203CDCED008D288F /* TitleCostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleCostTableViewCell.swift; sourceTree = "<group>"; };
+		8B6EEB151254B4363BC9BD92 /* Pods-HappyMealSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyMealSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HappyMealSwiftTests/Pods-HappyMealSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F5E0D76A1E302A1AD965E41 /* Pods-HappyMealSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyMealSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HappyMealSwift/Pods-HappyMealSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		B8308DDFCC7518637F66029E /* Pods-HappyMealSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyMealSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-HappyMealSwift/Pods-HappyMealSwift.release.xcconfig"; sourceTree = "<group>"; };
+		FCAAC96E2024ADDA00E699CB /* HappyMealSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyMealSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAAC9712024ADDA00E699CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCAAC9762024ADDA00E699CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCAAC9782024ADDA00E699CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCAAC97B2024ADDA00E699CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCAAC97D2024ADDA00E699CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAAC9822024ADDA00E699CB /* HappyMealSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyMealSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAAC9862024ADDA00E699CB /* HappyMealSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyMealSwiftTests.swift; sourceTree = "<group>"; };
+		FCAAC9882024ADDA00E699CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAAC98D2024ADDA00E699CB /* HappyMealSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyMealSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAAC9912024ADDA00E699CB /* HappyMealSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyMealSwiftUITests.swift; sourceTree = "<group>"; };
+		FCAAC9932024ADDA00E699CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAAC9BE2024B45100E699CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		FCC39E61203DCC82001E708F /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		FCC39E63203DD1A2001E708F /* RestaurantDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		FF7138C5C3AD1DA9BB85667C /* Pods-HappyMealSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyMealSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HappyMealSwiftTests/Pods-HappyMealSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCAAC96B2024ADDA00E699CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFED88367C4601E9885149F /* libPods-HappyMealSwift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAAC97F2024ADDA00E699CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63629EEEF5C159F85593C586 /* libPods-HappyMealSwiftTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAAC98A2024ADDA00E699CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5359A51137154657DAAFF36B /* libPods-HappyMealSwiftUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06263C612FC6CCE4AEE58EA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48FA961BC99032A0F531E40C /* libPods-HappyMealSwift.a */,
+				3E76CAC540AE0008A0D701F9 /* libPods-HappyMealSwiftTests.a */,
+				4780586DC7FEE3434E953F06 /* libPods-HappyMealSwiftUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F3AD1B82038E3C6004AD04B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6F3EDFEA203CDCED008D288F /* TitleCostTableViewCell.swift */,
+				6F3AD1B92038E3F2004AD04B /* RestaurantCollectionViewCell.swift */,
+				FCC39E63203DD1A2001E708F /* RestaurantDetailCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6F3AD1BB2038E3FD004AD04B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6F3AD1BC2038E40E004AD04B /* RestaurantCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8AEB2572BAF227354B1F2086 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F5E0D76A1E302A1AD965E41 /* Pods-HappyMealSwift.debug.xcconfig */,
+				B8308DDFCC7518637F66029E /* Pods-HappyMealSwift.release.xcconfig */,
+				8B6EEB151254B4363BC9BD92 /* Pods-HappyMealSwiftTests.debug.xcconfig */,
+				FF7138C5C3AD1DA9BB85667C /* Pods-HappyMealSwiftTests.release.xcconfig */,
+				46821A97C6FAB851A0E35B89 /* Pods-HappyMealSwiftUITests.debug.xcconfig */,
+				4A021EB2D73C6AE69C334F8C /* Pods-HappyMealSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCAAC9652024ADD900E699CB = {
+			isa = PBXGroup;
+			children = (
+				FCAAC9702024ADDA00E699CB /* HappyMealSwift */,
+				FCAAC9A52024B27800E699CB /* Resources */,
+				FCAAC9852024ADDA00E699CB /* HappyMealSwiftTests */,
+				FCAAC9902024ADDA00E699CB /* HappyMealSwiftUITests */,
+				FCAAC96F2024ADDA00E699CB /* Products */,
+				8AEB2572BAF227354B1F2086 /* Pods */,
+				06263C612FC6CCE4AEE58EA2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCAAC96F2024ADDA00E699CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCAAC96E2024ADDA00E699CB /* HappyMealSwift.app */,
+				FCAAC9822024ADDA00E699CB /* HappyMealSwiftTests.xctest */,
+				FCAAC98D2024ADDA00E699CB /* HappyMealSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCAAC9702024ADDA00E699CB /* HappyMealSwift */ = {
+			isa = PBXGroup;
+			children = (
+				FCAAC9A32024B21F00E699CB /* UI */,
+				FCAAC9A22024B1D800E699CB /* Code */,
+				FCAAC9A42024B25300E699CB /* SupportFiles */,
+				FCAAC97D2024ADDA00E699CB /* Info.plist */,
+			);
+			path = HappyMealSwift;
+			sourceTree = "<group>";
+		};
+		FCAAC9852024ADDA00E699CB /* HappyMealSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCAAC9862024ADDA00E699CB /* HappyMealSwiftTests.swift */,
+				FCAAC9882024ADDA00E699CB /* Info.plist */,
+			);
+			path = HappyMealSwiftTests;
+			sourceTree = "<group>";
+		};
+		FCAAC9902024ADDA00E699CB /* HappyMealSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCAAC9912024ADDA00E699CB /* HappyMealSwiftUITests.swift */,
+				FCAAC9932024ADDA00E699CB /* Info.plist */,
+			);
+			path = HappyMealSwiftUITests;
+			sourceTree = "<group>";
+		};
+		FCAAC9A22024B1D800E699CB /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				6F3AD1B82038E3C6004AD04B /* Cells */,
+				6F3AD1B42038E284004AD04B /* RestaurantViewController.swift */,
+				FCC39E61203DCC82001E708F /* RestaurantDetailViewController.swift */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		FCAAC9A32024B21F00E699CB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6F3AD1BB2038E3FD004AD04B /* Cells */,
+				FCAAC9A62024B2A700E699CB /* Storyboards */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FCAAC9A42024B25300E699CB /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6F3AD1D32038EC30004AD04B /* BasePageCollectionCell.swift */,
+				6F3AD1D82038EC30004AD04B /* ConfigurationHelper.swift */,
+				6F3AD1D92038EC30004AD04B /* ConstraintsHelper.swift */,
+				6F3AD1D72038EC30004AD04B /* CornerAnimatable.swift */,
+				6F3AD1D62038EC30004AD04B /* ExpandingTableViewController.swift */,
+				6F3AD1DC2038EC31004AD04B /* ExpandingViewController.swift */,
+				6F3AD1D52038EC30004AD04B /* PageCollectionLayout.swift */,
+				6F3AD1DB2038EC31004AD04B /* PageCollectionView.swift */,
+				6F3AD1DA2038EC30004AD04B /* ScreenShotHelper.swift */,
+				6F3AD1D22038EC30004AD04B /* SubviewsForEach.swift */,
+				6F3AD1D42038EC30004AD04B /* TransitionDriver.swift */,
+				6F3AD1CC2038EB80004AD04B /* AnimationBarButton.swift */,
+				6F3AD1CD2038EB80004AD04B /* Rotatable.swift */,
+				6F3AD1CA2038EB80004AD04B /* CollectionViewHelper.swift */,
+				6F3AD1CB2038EB80004AD04B /* StoryboardHelper.swift */,
+				FCAAC9712024ADDA00E699CB /* AppDelegate.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		FCAAC9A52024B27800E699CB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FCAAC9782024ADDA00E699CB /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FCAAC9A62024B2A700E699CB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FCAAC97A2024ADDA00E699CB /* LaunchScreen.storyboard */,
+				FCAAC9752024ADDA00E699CB /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCAAC96D2024ADDA00E699CB /* HappyMealSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAAC9962024ADDA00E699CB /* Build configuration list for PBXNativeTarget "HappyMealSwift" */;
+			buildPhases = (
+				75732CC857DA2AF52F089FEA /* [CP] Check Pods Manifest.lock */,
+				FCAAC96A2024ADDA00E699CB /* Sources */,
+				FCAAC96B2024ADDA00E699CB /* Frameworks */,
+				FCAAC96C2024ADDA00E699CB /* Resources */,
+				6272F821CF0289274CBFE5E4 /* [CP] Embed Pods Frameworks */,
+				DD634F1246C6A6BDD9D802AC /* [CP] Copy Pods Resources */,
+				6F9019522039D258008CB84C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyMealSwift;
+			productName = HappyMealSwift;
+			productReference = FCAAC96E2024ADDA00E699CB /* HappyMealSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCAAC9812024ADDA00E699CB /* HappyMealSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAAC9992024ADDA00E699CB /* Build configuration list for PBXNativeTarget "HappyMealSwiftTests" */;
+			buildPhases = (
+				FF69C871E54B576A219ABF83 /* [CP] Check Pods Manifest.lock */,
+				FCAAC97E2024ADDA00E699CB /* Sources */,
+				FCAAC97F2024ADDA00E699CB /* Frameworks */,
+				FCAAC9802024ADDA00E699CB /* Resources */,
+				29F782F5EA6D30D666CF0A33 /* [CP] Embed Pods Frameworks */,
+				868F7FF230DD99BD00689483 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCAAC9842024ADDA00E699CB /* PBXTargetDependency */,
+			);
+			name = HappyMealSwiftTests;
+			productName = HappyMealSwiftTests;
+			productReference = FCAAC9822024ADDA00E699CB /* HappyMealSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCAAC98C2024ADDA00E699CB /* HappyMealSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAAC99C2024ADDA00E699CB /* Build configuration list for PBXNativeTarget "HappyMealSwiftUITests" */;
+			buildPhases = (
+				C5E130BB959A4F77693127C3 /* [CP] Check Pods Manifest.lock */,
+				FCAAC9892024ADDA00E699CB /* Sources */,
+				FCAAC98A2024ADDA00E699CB /* Frameworks */,
+				FCAAC98B2024ADDA00E699CB /* Resources */,
+				51457F1696E8F4A6A4CB3B88 /* [CP] Embed Pods Frameworks */,
+				BB4D9392FD5C6C608ECD2CFD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCAAC98F2024ADDA00E699CB /* PBXTargetDependency */,
+			);
+			name = HappyMealSwiftUITests;
+			productName = HappyMealSwiftUITests;
+			productReference = FCAAC98D2024ADDA00E699CB /* HappyMealSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCAAC9662024ADD900E699CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Tiago Santo";
+				TargetAttributes = {
+					FCAAC96D2024ADDA00E699CB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					FCAAC9812024ADDA00E699CB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCAAC96D2024ADDA00E699CB;
+					};
+					FCAAC98C2024ADDA00E699CB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCAAC96D2024ADDA00E699CB;
+					};
+				};
+			};
+			buildConfigurationList = FCAAC9692024ADD900E699CB /* Build configuration list for PBXProject "HappyMealSwift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCAAC9652024ADD900E699CB;
+			productRefGroup = FCAAC96F2024ADDA00E699CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCAAC96D2024ADDA00E699CB /* HappyMealSwift */,
+				FCAAC9812024ADDA00E699CB /* HappyMealSwiftTests */,
+				FCAAC98C2024ADDA00E699CB /* HappyMealSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCAAC96C2024ADDA00E699CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAAC97C2024ADDA00E699CB /* LaunchScreen.storyboard in Resources */,
+				FCAAC9792024ADDA00E699CB /* Assets.xcassets in Resources */,
+				6F3AD1BD2038E40E004AD04B /* RestaurantCollectionViewCell.xib in Resources */,
+				FCAAC9772024ADDA00E699CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAAC9802024ADDA00E699CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAAC98B2024ADDA00E699CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29F782F5EA6D30D666CF0A33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HappyMealSwiftTests/Pods-HappyMealSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51457F1696E8F4A6A4CB3B88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HappyMealSwiftUITests/Pods-HappyMealSwiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6272F821CF0289274CBFE5E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HappyMealSwift/Pods-HappyMealSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAutoScaling/AWSAutoScaling.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCloudWatch/AWSCloudWatch.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSEC2/AWSEC2.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSElasticLoadBalancing/AWSElasticLoadBalancing.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSIoT/AWSIoT.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSKinesis/AWSKinesis.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSLambda/AWSLambda.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMachineLearning/AWSMachineLearning.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileAnalytics/AWSMobileAnalytics.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSES/AWSSES.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSNS/AWSSNS.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSQS/AWSSQS.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSimpleDB/AWSSimpleDB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAutoScaling.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCloudWatch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSEC2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSElasticLoadBalancing.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSIoT.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSKinesis.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSLambda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMachineLearning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileAnalytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSES.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSNS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSQS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSimpleDB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HappyMealSwift/Pods-HappyMealSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75732CC857DA2AF52F089FEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappyMealSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		868F7FF230DD99BD00689483 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HappyMealSwiftTests/Pods-HappyMealSwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB4D9392FD5C6C608ECD2CFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HappyMealSwiftUITests/Pods-HappyMealSwiftUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5E130BB959A4F77693127C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappyMealSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD634F1246C6A6BDD9D802AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HappyMealSwift/Pods-HappyMealSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF69C871E54B576A219ABF83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappyMealSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCAAC96A2024ADDA00E699CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3EDFEB203CDCED008D288F /* TitleCostTableViewCell.swift in Sources */,
+				6F3AD1BA2038E3F2004AD04B /* RestaurantCollectionViewCell.swift in Sources */,
+				FCAAC9722024ADDA00E699CB /* AppDelegate.swift in Sources */,
+				6F3AD1E52038EC31004AD04B /* ScreenShotHelper.swift in Sources */,
+				6F3AD1D12038EB80004AD04B /* Rotatable.swift in Sources */,
+				6F3AD1E02038EC31004AD04B /* PageCollectionLayout.swift in Sources */,
+				6F3AD1D02038EB80004AD04B /* AnimationBarButton.swift in Sources */,
+				6F3AD1B52038E284004AD04B /* RestaurantViewController.swift in Sources */,
+				6F3AD1DD2038EC31004AD04B /* SubviewsForEach.swift in Sources */,
+				FCC39E64203DD1A2001E708F /* RestaurantDetailCollectionViewCell.swift in Sources */,
+				6F3AD1E22038EC31004AD04B /* CornerAnimatable.swift in Sources */,
+				6F3AD1E32038EC31004AD04B /* ConfigurationHelper.swift in Sources */,
+				6F3AD1E42038EC31004AD04B /* ConstraintsHelper.swift in Sources */,
+				6F3AD1DF2038EC31004AD04B /* TransitionDriver.swift in Sources */,
+				6F3AD1E72038EC31004AD04B /* ExpandingViewController.swift in Sources */,
+				6F3AD1CF2038EB80004AD04B /* StoryboardHelper.swift in Sources */,
+				6F3AD1CE2038EB80004AD04B /* CollectionViewHelper.swift in Sources */,
+				6F3AD1DE2038EC31004AD04B /* BasePageCollectionCell.swift in Sources */,
+				6F3AD1E12038EC31004AD04B /* ExpandingTableViewController.swift in Sources */,
+				FCC39E62203DCC82001E708F /* RestaurantDetailViewController.swift in Sources */,
+				6F3AD1E62038EC31004AD04B /* PageCollectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAAC97E2024ADDA00E699CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAAC9872024ADDA00E699CB /* HappyMealSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAAC9892024ADDA00E699CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAAC9922024ADDA00E699CB /* HappyMealSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCAAC9842024ADDA00E699CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCAAC96D2024ADDA00E699CB /* HappyMealSwift */;
+			targetProxy = FCAAC9832024ADDA00E699CB /* PBXContainerItemProxy */;
+		};
+		FCAAC98F2024ADDA00E699CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCAAC96D2024ADDA00E699CB /* HappyMealSwift */;
+			targetProxy = FCAAC98E2024ADDA00E699CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCAAC9752024ADDA00E699CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCAAC9762024ADDA00E699CB /* Base */,
+				FCAAC9BE2024B45100E699CB /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCAAC97A2024ADDA00E699CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCAAC97B2024ADDA00E699CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCAAC9942024ADDA00E699CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCAAC9952024ADDA00E699CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCAAC9972024ADDA00E699CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F5E0D76A1E302A1AD965E41 /* Pods-HappyMealSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42YUD6QQ3T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HappyMealSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiagosanto.happymeal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCAAC9982024ADDA00E699CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8308DDFCC7518637F66029E /* Pods-HappyMealSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42YUD6QQ3T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HappyMealSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiagosanto.happymeal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCAAC99A2024ADDA00E699CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B6EEB151254B4363BC9BD92 /* Pods-HappyMealSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RQ35R25A4;
+				INFOPLIST_FILE = HappyMealSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiagoSanto.HappyMealSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyMealSwift.app/HappyMealSwift";
+			};
+			name = Debug;
+		};
+		FCAAC99B2024ADDA00E699CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF7138C5C3AD1DA9BB85667C /* Pods-HappyMealSwiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RQ35R25A4;
+				INFOPLIST_FILE = HappyMealSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiagoSanto.HappyMealSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyMealSwift.app/HappyMealSwift";
+			};
+			name = Release;
+		};
+		FCAAC99D2024ADDA00E699CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46821A97C6FAB851A0E35B89 /* Pods-HappyMealSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RQ35R25A4;
+				INFOPLIST_FILE = HappyMealSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiagoSanto.HappyMealSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HappyMealSwift;
+			};
+			name = Debug;
+		};
+		FCAAC99E2024ADDA00E699CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A021EB2D73C6AE69C334F8C /* Pods-HappyMealSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RQ35R25A4;
+				INFOPLIST_FILE = HappyMealSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiagoSanto.HappyMealSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HappyMealSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCAAC9692024ADD900E699CB /* Build configuration list for PBXProject "HappyMealSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAAC9942024ADDA00E699CB /* Debug */,
+				FCAAC9952024ADDA00E699CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCAAC9962024ADDA00E699CB /* Build configuration list for PBXNativeTarget "HappyMealSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAAC9972024ADDA00E699CB /* Debug */,
+				FCAAC9982024ADDA00E699CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCAAC9992024ADDA00E699CB /* Build configuration list for PBXNativeTarget "HappyMealSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAAC99A2024ADDA00E699CB /* Debug */,
+				FCAAC99B2024ADDA00E699CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCAAC99C2024ADDA00E699CB /* Build configuration list for PBXNativeTarget "HappyMealSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAAC99D2024ADDA00E699CB /* Debug */,
+				FCAAC99E2024ADDA00E699CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCAAC9662024ADD900E699CB /* Project object */;
+}

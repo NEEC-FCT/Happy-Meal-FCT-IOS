@@ -1,0 +1,36 @@
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "Bbe-EJ-UbZ"; */
+"Bbe-EJ-UbZ.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "C6B-m2-3zS"; */
+"C6B-m2-3zS.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "88:88 - 88:88 "; ObjectID = "HSI-oM-sTl"; */
+"HSI-oM-sTl.text" = "88:88 - 88:88 ";
+
+/* Class = "UILabel"; text = "Almoço"; ObjectID = "JgN-BC-mJm"; */
+"JgN-BC-mJm.text" = "Almoço";
+
+/* Class = "UILabel"; text = "8.88€"; ObjectID = "P0l-jj-O0L"; */
+"P0l-jj-O0L.text" = "8.88€";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fSr-7c-OOT"; */
+"fSr-7c-OOT.text" = "Label";
+
+/* Class = "UILabel"; text = "Mini Prato"; ObjectID = "h8N-zM-IQZ"; */
+"h8N-zM-IQZ.text" = "Mini Prato";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "jZ2-SK-e2N"; */
+"jZ2-SK-e2N.title" = "Item";
+
+/* Class = "UILabel"; text = "Jantar"; ObjectID = "mtp-IR-vYs"; */
+"mtp-IR-vYs.text" = "Jantar";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "ppw-zu-Rqy"; */
+"ppw-zu-Rqy.title" = "Item";
+
+/* Class = "UILabel"; text = "88:88 - 88:88 "; ObjectID = "tRY-b7-Lqi"; */
+"tRY-b7-Lqi.text" = "88:88 - 88:88 ";
+
+/* Class = "UILabel"; text = "Pato Principal"; ObjectID = "upA-Bu-jUj"; */
+"upA-Bu-jUj.text" = "Pato Principal";
